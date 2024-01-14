@@ -21,7 +21,7 @@ double getNumberFromUser(const string& prompt);
 void displayMenu();
 void runCalculator();
 
-int main()
-{
-	// Implemnation of Main (Mir Fahad)
+int main() {
+    runCalculator();
+    return 0;
 }
