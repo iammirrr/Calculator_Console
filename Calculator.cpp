@@ -11,6 +11,9 @@ double divide(double num1, double num2);
 
 // Function declarations for advanced operations (Momina)
 double power(double base, double exponent)
+{
+	return pow(base, exponent);
+}
 double squareRoot(double num);
 double inverse(double num);
 double factorial(int num);
