@@ -11,7 +11,16 @@ double divide(double num1, double num2);
 
 // Function declarations for advanced operations (Momina)
 double power(double base, double exponent)
-double squareRoot(double num);
+double squareRoot(double num)
+{
+    if (num < 0) {
+        cout << "Error: Cannot calculate square root of a negative number" << endl;
+        return NAN; // Handle negative square root
+    }
+    else {
+        return sqrt(num);
+    }
+}
 double inverse(double num);
 double factorial(int num);
 
