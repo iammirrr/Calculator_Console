@@ -43,7 +43,7 @@ void displayMenu() {
 }
 void runCalculator();
 
-int main()
-{
-	// Implemnation of Main (Mir Fahad)
+int main() {
+    runCalculator();
+    return 0;
 }
