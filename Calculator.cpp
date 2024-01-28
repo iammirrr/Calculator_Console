@@ -11,10 +11,7 @@ double divide(double num1, double num2);
 
 // Function declarations for advanced operations (Momina)
 double power(double base, double exponent)
-{
-	return pow(base, exponent);
-}
-double squareRoot(double num);
+
 
 // Function declarations for input validation and handling (Momina)
 bool isValidNumber(const string& input) {
